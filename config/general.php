@@ -6,7 +6,7 @@
  * list of the available settings in vendor/craftcms/cms/src/config/GeneralConfig.php.
  */
 
-return [
+$settings = [
     // Global settings
     '*' => [
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
@@ -46,3 +46,11 @@ return [
         'siteUrl' => null,
     ],
 ];
+
+// Automatic Platform.sh settings.
+$platformsh_config = CRAFT_CONFIG_PATH . '/general.platformsh.php';
+if (file_exists($platformsh_config)) {
+    include $platformsh_config;
+}
+
+return $settings;
