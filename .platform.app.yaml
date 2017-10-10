@@ -29,6 +29,7 @@ disk: 1024
 mounts:
     # Storage for Craft-writeable files.
     "/storage": "shared:files/storage"
+    "/web/cpresources": "shared:files/cpresources"
     # The license file needs to be runtime writeable.
     "/license": "shared:files/license"
 
