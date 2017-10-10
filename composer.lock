@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b81f1ecb7d1e0663bdc776ee39bc2cf3",
-    "content-hash": "4984d6ee938dcb4b79e280a6ada02ceb",
+    "hash": "d7bb6e5ee66ec8c34df8e8d13a8ec25c",
+    "content-hash": "eea510e5829f06c3a36355d6e8fc4c82",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -328,16 +328,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.0.0-beta.29",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "33d2fe40f928d6ba9bfefa9811e033f2889352a4"
+                "reference": "c54de2cf939e79a5aca8f4b24f2fada50a0aefd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/33d2fe40f928d6ba9bfefa9811e033f2889352a4",
-                "reference": "33d2fe40f928d6ba9bfefa9811e033f2889352a4",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/c54de2cf939e79a5aca8f4b24f2fada50a0aefd2",
+                "reference": "c54de2cf939e79a5aca8f4b24f2fada50a0aefd2",
                 "shasum": ""
             },
             "require": {
@@ -363,7 +363,7 @@
                 "seld/cli-prompt": "^1.0",
                 "twig/twig": "~2.3.0",
                 "yiisoft/yii2": "~2.0.12.0",
-                "yiisoft/yii2-debug": "2.0.8",
+                "yiisoft/yii2-debug": "~2.0.10",
                 "yiisoft/yii2-queue": "~2.0.0",
                 "yiisoft/yii2-swiftmailer": "~2.0.6",
                 "zendframework/zend-feed": "~2.8.0"
@@ -403,7 +403,7 @@
                 "craftcms",
                 "yii2"
             ],
-            "time": "2017-09-29 17:37:43"
+            "time": "2017-10-10 21:34:10"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -840,16 +840,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.4",
+            "version": "5.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "7ccb0e67ea8ace0f84c40900ca3c8a234467628c"
+                "reference": "0d4fda8efdf216ade084a7f0aad5637572ce9835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/7ccb0e67ea8ace0f84c40900ca3c8a234467628c",
-                "reference": "7ccb0e67ea8ace0f84c40900ca3c8a234467628c",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/0d4fda8efdf216ade084a7f0aad5637572ce9835",
+                "reference": "0d4fda8efdf216ade084a7f0aad5637572ce9835",
                 "shasum": ""
             },
             "require": {
@@ -902,7 +902,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-10-04 20:57:36"
+            "time": "2017-10-10 13:22:37"
         },
         {
             "name": "league/flysystem",
@@ -2152,16 +2152,16 @@
         },
         {
             "name": "yiisoft/yii2-debug",
-            "version": "2.0.8",
+            "version": "2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "0c4d7a1085bf3aacfad9bcba48e053d36c2c498a"
+                "reference": "93082f46d3568b4431a26f264e0d16a12c42bd50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/0c4d7a1085bf3aacfad9bcba48e053d36c2c498a",
-                "reference": "0c4d7a1085bf3aacfad9bcba48e053d36c2c498a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/93082f46d3568b4431a26f264e0d16a12c42bd50",
+                "reference": "93082f46d3568b4431a26f264e0d16a12c42bd50",
                 "shasum": ""
             },
             "require": {
@@ -2195,7 +2195,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-02-19 16:48:01"
+            "time": "2017-10-09 20:30:01"
         },
         {
             "name": "yiisoft/yii2-queue",
@@ -2476,10 +2476,17 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "3.0.0-beta.99",
+            "alias_normalized": "3.0.0.0-beta99",
+            "version": "dev-develop",
+            "package": "craftcms/cms"
+        }
+    ],
     "minimum-stability": "beta",
     "stability-flags": {
-        "craftcms/cms": 10,
+        "craftcms/cms": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
