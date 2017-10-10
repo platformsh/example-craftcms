@@ -9,6 +9,11 @@ type: php:7.1
 build:
     flavor: composer
 
+variables:
+    php:
+        display_errors: On
+        error_leve: 32767
+
 # The relationships of the application with services or other applications.
 #
 # The left-hand side is the name of the relationship as it will be exposed
