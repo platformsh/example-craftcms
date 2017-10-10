@@ -22,8 +22,11 @@ disk: 1024
 
 # The mounts that will be performed when the package is deployed.
 mounts:
-    # A small placeholder scratch space if needed.
+    # Storage for Craft-writeable files.
     "/storage": "shared:files/storage"
+    # The license file needs to be runtime writeable.
+    "/license": "shared:files/license"
+
 
 # The configuration of app when it is exposed to the web.
 web:
